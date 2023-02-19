@@ -2,7 +2,7 @@
 
 namespace OOP_in_C_
 {
-    class MS Excel : Information
+    class MS Excel : Class1
     {
         public string DateOfCreation { get; set; }
 
