@@ -2,16 +2,16 @@
 
 namespace OOP_in_C_
 {
-    class Word : Class1
+    class MS Word : Class1
     {
         public string DateOfCreation { get; set; }
         public string DateOfChange { get; set; }
         public string Size { get; set; }
         public string Password { get; set; }
 
-        public Word() { }
+        public MS Word() { }
 
-        public Word(
+        public MS Word(
             string Name,
             string Author,
             String[] Keywords,
@@ -27,10 +27,10 @@ namespace OOP_in_C_
             this.Size = Size;
         }
 
-        public Word(string Name, string Author, string[] Keywords, string Theme, string Path)
+        public MS Word(string Name, string Author, string[] Keywords, string Theme, string Path)
             : base(Name, Author, Keywords, Theme, Path) { }
 
-        public Word(string Name) : base(Name) { }
+        public MS Word(string Name) : base(Name) { }
 
         public override void PrintValues()
         {
